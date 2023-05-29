@@ -5,46 +5,64 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      <h1>Inspire</h1>
-      <h5>We help organizations build cloud applications to store and analyze medical data.</h5>
+      <div className={styles.landingTop}>
 
+        <h1>Inspire</h1>
+        <h5>We help organizations build cloud applications to store and analyze medical data.</h5>
 
-      <h3>Supported By</h3>
-      
-      <p>McGill Engine</p>
-      <p>Microsoft Imagine Cup</p>
-      <p>Next AI</p>
-      <p>McGill Dobson</p>
-      <p>Cansbridge Fellowship</p>
+      </div>
 
+      <div className={styles.landingSupport}>
+        <h3>Supported By</h3>
+        <br/>
+        
+        <Image
+          src="/1_Next_AI_Primary.png"
+          alt="Next AI"
+          width="100"
+          height="20"
+        />
+      </div>
 
-      <h3>Our Product</h3>
+      <div className={styles.landingProduct}>
+        <h3>Our Product</h3>
 
-      <p>We are building a cloud platform that allows organizations to easily store and analyze medical data.</p>
+        <p>We are building a cloud platform that allows organizations to easily store and analyze medical data.</p>
+      </div>
 
+      <div className={styles.landingVision}>
 
-      <h3>Our Vision</h3>
+        <h3>Our Vision</h3>
 
-      <p>We want to make detection of preventable medical conditions accessible for all.</p>
+        <p>We want to make detection of preventable medical conditions accessible for all.</p>
 
-      <p>Here is how we are getting there:</p>
+        <p>Here is how we are getting there:</p>
 
-      <p><b>Stage 1:</b> Make storing and analyzing medical data easy, with a one-stop toolkit for cloud applications</p>
+        <p><b>Stage 1:</b> Make storing and analyzing medical data easy, with a one-stop toolkit for cloud applications</p>
 
-      <p><b>Stage 2:</b> Add AI-enabled services for early disease detection</p>
+        <p><b>Stage 2:</b> Add AI-enabled services for early disease detection</p>
 
-      <p><b>Stage 3:</b> Develop portable robots to monitor more patients at an affordable cost</p>
+        <p><b>Stage 3:</b> Develop portable robots to monitor more patients at an affordable cost</p>
 
-      <h3>Our Team</h3>
+      </div>
 
-      <p>Laurence Liang</p>
+      <div className={styles.landingTeam}>
 
-      <p>Qi (Ken) Zuo</p>
+        <h3>Our Team</h3>
 
+        <p>Laurence Liang</p>
 
-      <h3>We'd Love to Connect</h3>
+        <p>Qi (Ken) Zuo</p>
 
-      <p>email@site.com</p>
+      </div>
+
+      <div className={styles.landingConnect}>
+
+        <h3>We'd Love to Connect</h3>
+
+        <p>inspire.health.ai@gmail.com</p>
+
+      </div>
 
     </main>
   )
