@@ -51,8 +51,12 @@ export default function Home() {
         <h3>Our Team</h3>
 
         <p>Laurence Liang</p>
+	<p>Title</p>
+	<p>Description</p>
 
         <p>Qi (Ken) Zuo</p>
+	<p>Title</p>
+	<p>Description</p>
 
       </div>
 
