@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 const profileImageStyle = {
-  borderRadius: '10%',
+  borderRadius: '25%',
 }
 
 export default function Home() {
@@ -72,16 +72,30 @@ export default function Home() {
           <div className={styles.landingTeamItem}>
 
             <Image
-              src="/Konstantin-Kleine-photo.jpg"
-              alt="Photo of mountains"
-              width="270"
-              height="196"
+              src="/Laurence-Liang-Profile.jpg"
+              alt="Laurence Liang Photo"
+              width="200"
+              height="200"
               style={profileImageStyle}
             />
 
             <p><b>Laurence Liang</b></p>
             <p>Technical Lead</p><br/>
-            <p>Laurence has written software in industry roles since 2018, from developing natural language processing tools at Expedia, to building the first prototype of the core API of a pre-seed startup with a seven-figure valuation. Laurence has also developed models for bioinformatics and machine learning research, and has presented his work at ISEF, CWSF and CUCAI. He has been featured on TEDx, is a recipient of the Cansbridge Fellowship during which Laurence developed visualization tools and predictive models for motor tests at ACSL Ltd. (Japan's largest industrial drone manufacturer), and is currently pursuing his degree in mechanical engineering at McGill University.</p>
+
+            <p>Laurence is passionate about combining interdisciplinary technologies to solve meaningful problems. </p>
+
+            <br/>
+
+            <p>The Summer before university, Laurence spent a week with Global Brigades embarking on video calls with community healthcare workers in Honduras. This experience, coupled with a personal interest in reducing healthcare inequalities, led Laurence to build the first prototype for Inspire in the following year: a 3D-printed robotic arm connected to an AI model for respiratory disease diagnostics.</p>
+
+            <br/>
+
+            <p>Having written software in industry roles since 2018, from developing natural language processing tools at Expedia, to building a pre-seed startup's core API prototype, Laurence is passionate about using his personal expriences to develop low-cost and accurate technology to reduce global healthcare inequalities. He has presented his research on bioinformatics and machine learning at ISEF, CWSF and CUCAI. He has been featured on TEDx, is a recipient of the Cansbridge Fellowship during which he developed visualization tools and predictive models for motor tests at ACSL Ltd. (Japan's largest industrial drone manufacturer), and is currenlty pursuing his degree in mechanical engineering at McGill University.</p>
+
+            <br/>
+
+            <p>Laurence is excited to develop accessible and safe hardware and software for Inspire, and would love to connect to help organizations improve the patient experience.</p>
+
           </div>
 
           <div className={styles.landingTeamItem}>
