@@ -39,3 +39,19 @@
 
 }
 
+.landingTeamContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.landingTeamItem {
+  width: 250px;
+  flex-grow: 1;
+  padding: 1.5rem;
+  text-align: justify;
+
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
