@@ -11,8 +11,13 @@ export default function Home() {
 
       <div className={styles.landingTop}>
 
-        <h1>Inspire</h1>
-        <h5>We help organizations build cloud applications to store and analyze medical data.</h5>
+        <div className={styles.landingTopTitle}>Inspire</div>
+        <div className={styles.landingTopSubtitle}>We help organizations build cloud applications to store and analyze medical data.</div>
+
+        <br/><br/>
+
+
+        <a target="_blank" href="https://calendly.com/inspire-health-ai/meet-with-inspire" className={styles.landingButtonTop}>Book a Meeting</a>
 
       </div>
 
@@ -40,11 +45,19 @@ export default function Home() {
 
         <p>We want to make detection of preventable medical conditions accessible for all.</p>
 
+        <br/>
+
         <p>Here is how we are getting there:</p>
+
+        <br/>
 
         <p><b>Stage 1:</b> Make storing and analyzing medical data easy, with a one-stop toolkit for cloud applications</p>
 
+        <br/>
+
         <p><b>Stage 2:</b> Add AI-enabled services for early disease detection</p>
+
+        <br/>
 
         <p><b>Stage 3:</b> Develop portable robots to monitor more patients at an affordable cost</p>
 
