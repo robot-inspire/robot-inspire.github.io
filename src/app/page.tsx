@@ -69,7 +69,6 @@ export default function Home() {
             <p><b>Laurence Liang</b></p>
             <p>Technical Lead</p><br/>
             <p>Laurence has written software in industry roles since 2018, from developing natural language processing tools at Expedia, to building the first prototype of the core API of a pre-seed startup with a seven-figure valuation. Laurence has also developed models for bioinformatics and machine learning research, and has presented his work at ISEF, CWSF and CUCAI. He has been featured on TEDx, is a recipient of the Cansbridge Fellowship during which Laurence developed visualization tools and predictive models for motor tests at ACSL Ltd. (Japan's largest industrial drone manufacturer), and is currently pursuing his degree in mechanical engineering at McGill University.</p>
-
           </div>
 
           <div className={styles.landingTeamItem}>
