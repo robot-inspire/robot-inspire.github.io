@@ -22,15 +22,48 @@ export default function Home() {
       </div>
 
       <div className={styles.landingSupport}>
-        <h3>Supported By</h3>
+       
+ 	<h3>Supported By</h3>
         <br/>
-        
+	<br/>	
+
+	<div className={styles.landingSupportContainer}>
+
+	<div className={styles.landingSupportItem}>
+      
+	<Image
+		src="/Cansbridge_Fellowship_logo.jpg"
+		alt="Cansbridge Fellowship AEF"
+		width="75"
+		height="40"
+	/>
+
+	</div>
+
+	<div className={styles.landingSupportItem}>
+  
         <Image
           src="/1_Next_AI_Primary.png"
           alt="Next AI"
-          width="100"
-          height="20"
+          width="125"
+          height="25"
         />
+
+	</div>
+
+	<div className={styles.landingSupportItem}>
+
+	<Image
+		src="/Logo_Engine.png"
+		alt="McGill Engine"
+		width="120"
+		height="30"
+	/>
+
+	</div>
+
+	</div>
+
       </div>
 
       <div className={styles.landingProduct}>
@@ -64,12 +97,12 @@ export default function Home() {
       </div>
 
       <div className={styles.landingTeam}>
-
-        <h3>Our Team</h3>
-
+        
+	<h3>Our Team</h3>
+	
         <div className={styles.landingTeamContainer}>
-
-          <div className={styles.landingTeamItem}>
+        
+	  <div className={styles.landingTeamItem}>
 
             <Image
               src="/Laurence-Liang-Profile.jpg"
