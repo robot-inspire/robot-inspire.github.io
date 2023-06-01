@@ -79,9 +79,20 @@ export default function Home() {
               style={profileImageStyle}
             />
 
-            <p><b>Laurence Liang</b></p>
-            <p>Technical Lead</p><br/>
+            <p><b>Laurence Liang   </b>
 
+		<a href="https://linkedin.com/in/laurence-liang-innovator" target="_blank">
+		    <Image
+			src="/icons8-linkedin-50.png"
+			alt="LinkedIn logo"
+			width="20"
+			height="20"
+		    />
+		</a>
+
+	    </p>
+            <p>Technical Lead</p><br/>
+{/*
             <p>Laurence is passionate about combining interdisciplinary technologies to solve meaningful problems. </p>
 
             <br/>
@@ -95,29 +106,37 @@ export default function Home() {
             <br/>
 
             <p>Laurence is excited to develop accessible and safe hardware and software for Inspire, and would love to connect to help organizations improve the patient experience.</p>
-
+*/}
           </div>
 
           <div className={styles.landingTeamItem}>
 
             <Image
-                src="/Konstantin-Kleine-photo.jpg"
+                src="/Qi-Zuo-Profile.jpg"
                 alt="Photo of mountains"
-                width="270"
-                height="196"
+                width="200"
+                height="200"
                 style={profileImageStyle}
               />
 
-            <p><b>Qi (Ken) Zuo</b></p>
-            <p>Title</p>
-	    <br/>
-            <p>Description</p>
+            <p><b>Qi (Ken) Zuo  </b>
+	
+		<a href="https://linkedin.com/in/qizuo" target="_blank">
+		<Image
+			src="/icons8-linkedin-50.png"
+			alt="LinkedIn logo"
+			width="20"
+			height="20"
+		/>
+		</a>
+
+
+	    </p>
+            <p>Biology Lead</p>
 
           </div>
 
         </div>
-
-
 
       </div>
 
